@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/fashion-concept-helix/static/css/main.01f18441.chunk.css",
+    "main.js": "/fashion-concept-helix/static/js/main.46a38d72.chunk.js",
+    "main.js.map": "/fashion-concept-helix/static/js/main.46a38d72.chunk.js.map",
+    "runtime-main.js": "/fashion-concept-helix/static/js/runtime-main.4ee72718.js",
+    "runtime-main.js.map": "/fashion-concept-helix/static/js/runtime-main.4ee72718.js.map",
+    "static/js/2.5b4c36e5.chunk.js": "/fashion-concept-helix/static/js/2.5b4c36e5.chunk.js",
+    "static/js/2.5b4c36e5.chunk.js.map": "/fashion-concept-helix/static/js/2.5b4c36e5.chunk.js.map",
+    "index.html": "/fashion-concept-helix/index.html",
+    "static/css/main.01f18441.chunk.css.map": "/fashion-concept-helix/static/css/main.01f18441.chunk.css.map",
+    "static/js/2.5b4c36e5.chunk.js.LICENSE.txt": "/fashion-concept-helix/static/js/2.5b4c36e5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/fashion-concept-helix/static/media/asfalt-dark.12fc1a7a.png",
+    "static/media/clothing-1.7e2d8bc3.jpg": "/fashion-concept-helix/static/media/clothing-1.7e2d8bc3.jpg",
+    "static/media/clothing-2.2424889f.jpg": "/fashion-concept-helix/static/media/clothing-2.2424889f.jpg",
+    "static/media/clothing-3.8d864620.jpg": "/fashion-concept-helix/static/media/clothing-3.8d864620.jpg",
+    "static/media/clothing-4.c9de7b31.jpg": "/fashion-concept-helix/static/media/clothing-4.c9de7b31.jpg",
+    "static/media/clothing-5.14a2e93e.jpg": "/fashion-concept-helix/static/media/clothing-5.14a2e93e.jpg",
+    "static/media/clothing-6.cb823a7d.jpg": "/fashion-concept-helix/static/media/clothing-6.cb823a7d.jpg",
+    "static/media/helsinki.ab430f9d.jpg": "/fashion-concept-helix/static/media/helsinki.ab430f9d.jpg",
+    "static/media/home-clothing.6584c7e6.jpg": "/fashion-concept-helix/static/media/home-clothing.6584c7e6.jpg",
+    "static/media/home-sneakers.4ef802c8.jpg": "/fashion-concept-helix/static/media/home-sneakers.4ef802c8.jpg",
+    "static/media/london.c2278980.jpg": "/fashion-concept-helix/static/media/london.c2278980.jpg",
+    "static/media/model1.cc3183c1.jpg": "/fashion-concept-helix/static/media/model1.cc3183c1.jpg",
+    "static/media/newyork.800bf69d.jpg": "/fashion-concept-helix/static/media/newyork.800bf69d.jpg",
+    "static/media/showreel.89e8806d.jpg": "/fashion-concept-helix/static/media/showreel.89e8806d.jpg",
+    "static/media/sneakers-1.ae5aed0b.jpg": "/fashion-concept-helix/static/media/sneakers-1.ae5aed0b.jpg",
+    "static/media/sneakers-2.2e11d56a.jpg": "/fashion-concept-helix/static/media/sneakers-2.2e11d56a.jpg",
+    "static/media/sneakers-3.e03e1f32.jpg": "/fashion-concept-helix/static/media/sneakers-3.e03e1f32.jpg",
+    "static/media/sneakers-4.4596ff7f.jpg": "/fashion-concept-helix/static/media/sneakers-4.4596ff7f.jpg",
+    "static/media/sneakers-5.1190f915.jpg": "/fashion-concept-helix/static/media/sneakers-5.1190f915.jpg",
+    "static/media/sneakers2.dc010657.jpg": "/fashion-concept-helix/static/media/sneakers2.dc010657.jpg",
+    "static/media/tokyo.853dee80.jpg": "/fashion-concept-helix/static/media/tokyo.853dee80.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ee72718.js",
+    "static/js/2.5b4c36e5.chunk.js",
+    "static/css/main.01f18441.chunk.css",
+    "static/js/main.46a38d72.chunk.js"
+  ]
+}
