@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+$red: #e20001;
+$black: #000;
+$white: #FFF;
+$bg-color: #242231;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Michroma", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    &::after {
+      content: "";
+      background-image: url('../src/images/asfalt-dark.png');
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;   
+    }
+}
+
+.container {
+  width: 1280px;
+  min-width: 1280px;
+  margin: 0 auto;
+  animation: transitionIn 0.8s;
+  .wrapper {
+    padding: 0 48px;
+    .home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      font-family: "Michroma";
+      .svg-1 {
+        position: relative;
+        top: 2rem;
+        left: 3rem;
+      }
+      .svg-2 {
+        position: relative;
+        top: -6rem;
+      }
+      .svg-3 {
+        position: relative;
+        top: -3.25rem;
+        left: -15.5rem;
+      }
+      h1 {
+        font-size: 14rem;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 0;
+      }
+      .link-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin-top: 6rem;
+        .link-item {
+          z-index: 2;
+          font-size: 4rem;
+          list-style: none;
+          font-weight: 700;
+          cursor: pointer;
+          height: 8.438rem;
+          overflow: hidden;
+          position: relative;
+          width: 43.75rem;
+          a {
+            position: absolute;
+            color: $black;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        svg {
+          margin-right: 4rem;
+          margin-left: 4rem;
+          width: 4rem;
+          margin-bottom: 1.5rem;
+        }
+      }
+      .clothing-wrapper {
+        h1 {
+          font-size: 4rem;
+          letter-spacing: 2rem;
+          text-decoration: underline;
+          margin-top: 2.5rem;
+        }
+        h2 {
+          font-size: 6rem;
+          text-align: center;
+          margin-top: 20vh;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        .clothing-content {
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          p {
+            width: 30%;
+            margin-top: 6rem;
+            margin-right: 4rem;
+          }
+          .clothing-images {
+            width: 70%;
+            line-height: 0;
+   
+            -webkit-column-count: 4;
+            -webkit-column-gap: 0px;
+            -moz-column-count: 4;
+            -moz-column-gap: 0px;
+            column-count: 4;
+            column-gap: 0px; 
+            img {
+              width: 100% !important;
+              height: auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  height: 100px;
+  .inner-header {
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo a {
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      color: $black;
+      font-family: "Michroma";
+    }
+    .menu {
+      button {
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1rem;
+        mix-blend-mode: difference;
+        font-family: "Michroma";
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .hamburger-menu {
+    display: none;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: "Michroma";
+    .menu-secondary-background-color {
+      background: $white;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+    .menu-layer {
+      position: relative;
+      background: $bg-color;
+      height: 100%;
+      overflow: hidden;
+      .menu-city-background {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-name: backgroundEffect;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+      }
+      .wrapper {
+        position: relative;
+        .menu-links {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+          top: 200px;
+          nav {
+            display: block;
+            ul {
+              margin: 0;
+              padding: 0;
+              li {
+                list-style: none;
+                font-size: 6rem;
+                font-weight: 700;
+                cursor: pointer;
+                height: 135px;
+                overflow: hidden;
+                position: relative;
+                width: 700px;
+                a {
+                  position: absolute;
+                  color: #fff;
+                  text-decoration: none;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+          }
+          .info {
+            color: #fff;
+            width: 300px;
+            h3 {
+              font-size: 1.2rem;
+              margin: 8px auto;
+            }
+            p {
+              margin: 0 auto;
+              font-size: 0.8rem;
+            }
+          }
+        }
+        .locations {
+          position: absolute;
+          bottom: -30vh;
+          color: #fff;
+          margin-top: 16px;
+          font-size: 1rem;
+          font-weight: 600;
+          span {
+            cursor: pointer;
+            &:first-child {
+              margin-left: 64px;
+            }
+            font-weight: 400;
+            margin: 0 32px;
+            transition: 0.3s ease-in-out;
+            &:hover {
+              color: #fff;
+              background: $black;
+              padding: 8px 24px;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes backgroundEffect {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 40% 10%;
+  }
+  50% {
+    background-position: 0 10%;
+  }
+  75% {
+    background-position: 10% 40%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+@media (max-width: 1200px) {
+  .clothing-images {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  .clothing-images {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  .clothing-images {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  .clothing-images {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
